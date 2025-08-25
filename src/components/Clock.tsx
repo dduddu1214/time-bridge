@@ -1,4 +1,4 @@
-import { useCurrentTime } from '../hooks/useCurrentTime';
+
 import { City, TimeData } from '../types';
 import { getTimeData } from '../utils/timeUtils';
 import { CityCard } from './CityCard';
@@ -14,8 +14,6 @@ interface ClockProps {
 }
 
 export function Clock({ cities, is24Hour, onRemoveCity, showRemoveButtons = false, translations, language }: ClockProps) {
-  const currentTime = useCurrentTime();
-  
   const timeDataList: TimeData[] = cities.map(city => 
     getTimeData(city, is24Hour)
   );

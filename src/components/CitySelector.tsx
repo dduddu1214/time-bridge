@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Plus, X, Settings, Search, Globe, Check } from 'lucide-react';
+import { Plus, X, Settings, Search, Globe } from 'lucide-react';
 import { City } from '../types';
 import { Translations } from '../utils/translations';
 

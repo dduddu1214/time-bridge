@@ -46,13 +46,12 @@ export function getTimeData(city: City, is24Hour: boolean): TimeData {
 
 export function convertTimeToAllTimezones(
   inputTime: string,
-  fromTimezone: string,
+  _fromTimezone: string,
   cities: City[],
   is24Hour: boolean
 ): TimeData[] {
   try {
     const [hours, minutes] = inputTime.split(':').map(Number);
-    const today = new Date();
     
     // Create a date in the source timezone
     const sourceDate = new Date();

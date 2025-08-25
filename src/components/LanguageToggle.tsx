@@ -1,4 +1,4 @@
-import { Languages, Globe } from 'lucide-react';
+import { Globe } from 'lucide-react';
 
 interface LanguageToggleProps {
   currentLanguage: 'en' | 'ko';
