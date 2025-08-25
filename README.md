@@ -39,8 +39,8 @@ TimeBridge는 원격 팀과 글로벌 협업을 위해 설계된 직관적이고
 
 1. **저장소 클론**
 ```bash
-git clone git remote add origin https://github.com/dduddu1214/time-bridge.git
-cd timeBridge
+git clone https://github.com/dduddu1214/time-bridge.git
+cd time-bridge
 ```
 
 2. **의존성 설치**
